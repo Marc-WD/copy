@@ -1,0 +1,14 @@
+.home-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: var(--card-bg);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0.5rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.03);
+}
+.home-card img { width: 140px; height: 100px; object-fit: cover; border-radius: 8px; }
+.home-card .meta { font-size: 0.85rem; color: var(--muted); }
+.home-card .title { font-weight: 700; margin:0; font-size:1rem; }
+.home-card .excerpt { color: #4b5563; font-size:0.95rem; }
